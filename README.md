@@ -1,4 +1,4 @@
-# LCProblems
+# LeetCode Problems
 
 <div>
 <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/andykr1k/LCProblems?&style=for-the-badge"/>
@@ -8,3 +8,5 @@
 <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/andykr1k/LCProblems?&style=for-the-badge"/>
 <img alt="GitHub Commit Activity (Week)" src="https://img.shields.io/github/commit-activity/w/andykr1k/LCProblems?&style=for-the-badge"/>
 </div>
+
+## Solutions
