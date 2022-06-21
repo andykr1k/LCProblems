@@ -4,6 +4,8 @@
 #include <vector>
 using namespace std;
 
+
+//BRUTE FORCE
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
