@@ -2,33 +2,43 @@
 #include <stack>
 using namespace std;
 
-class Solution {
+class Solution
+{
 public:
-    bool isValid(string s) {
+    bool isValid(string s)
+    {
         stack<char> stak;
-        
-        for(char c: s){
-            if(c == '(' || c == '{' || c == '['){
+
+        for (char c : s)
+        {
+            if (c == '(' || c == '{' || c == '[')
+            {
                 stak.push(c);
             }
-            else{
-                if(stak.empty()){
+            else
+            {
+                if (stak.empty())
+                {
                     return false;
                 }
-                if(c==')' and stak.top()=='('){
+                if (c == ')' and stak.top() == '(')
+                {
                     stak.pop();
                 }
-                else if(c=='}' and stak.top()=='{'){
+                else if (c == '}' and stak.top() == '{')
+                {
                     stak.pop();
                 }
-                else if(c==']' and stak.top()=='['){
+                else if (c == ']' and stak.top() == '[')
+                {
                     stak.pop();
                 }
-                else{
+                else
+                {
                     return false;
                 }
             }
         }
-        return(stak.empty());
+        return (stak.empty());
     }
 };
