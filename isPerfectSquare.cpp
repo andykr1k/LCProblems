@@ -1,6 +1,3 @@
-/// PROBLEM #367
-
-// BRUTE FORCE
 class Solution
 {
 public:
