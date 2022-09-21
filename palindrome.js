@@ -1,12 +1,3 @@
-///PROBLEM #9
-
-
-/*
-Make sure start and end never touch (Middle Number can be a single)
-Compare first and last number
-if they are not the same return false
-if they are continue
-*/
 var isPalindrome = function(x) {
     if (x < 0){
         return false;

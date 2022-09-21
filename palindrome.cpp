@@ -1,5 +1,3 @@
-/// PROBLEM #9
-
 #include <string>
 using namespace std;
 

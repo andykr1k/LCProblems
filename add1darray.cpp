@@ -1,5 +1,3 @@
-/// PROBLEM #1480
-
 #include <vector>
 using namespace std;
 

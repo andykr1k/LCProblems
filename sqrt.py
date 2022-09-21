@@ -1,6 +1,3 @@
-#PROBELM 69
-
-
 class Solution:
     def mySqrt(self, x: int) -> int:
         if x == 0:

@@ -1,11 +1,7 @@
-/// PROBLEM #1
-
 #include <iostream>
 #include <vector>
 #include <map>
 using namespace std;
-
-// Brute Force
 class Solution
 {
 public:

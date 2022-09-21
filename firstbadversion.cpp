@@ -1,5 +1,3 @@
-/// PROBLEM #278
-
 int isBadVersion(int n)
 {
     // Defined by Leetcode

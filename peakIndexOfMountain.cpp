@@ -1,9 +1,5 @@
-/// PROBLEM #852
-
 #include <vector>
 using namespace std;
-
-// BRUTE FORCE
 class Solution
 {
 public:

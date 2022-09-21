@@ -1,7 +1,6 @@
-/// PROBLEM #374
-
 int guess(int x)
 {
+    //Defined by LC
 }
 
 class Solution
